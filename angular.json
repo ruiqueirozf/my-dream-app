@@ -49,9 +49,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/primeng/resources/themes/nova-light/theme.css",
+              "node_modules/primeng/resources/primeng.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/chart.js/dist/Chart.bundle.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -144,6 +152,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "my-deam-app"
+    }
+  },
+  "defaultProject": "my-deam-app",
+  "cli": {
+    "analytics": "9f48768d-e4e9-40c1-9925-cac7ce0c653a"
+  }
 }
